@@ -1,0 +1,5 @@
+# cat=basic/enable; type=string; label=DISQUS Shortname: Your DISQUS Shortname
+disqusshortname = 
+
+# cat=basic/enable; type=boolean; label=DISQUS in T3Blog: T3Blog Comment function gets replaced with DISQUS
+disqusint3blog = 0

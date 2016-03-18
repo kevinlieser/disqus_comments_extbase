@@ -1,0 +1,15 @@
+
+plugin.tx_disquscommentsextbase {
+	view {
+		# cat=plugin.tx_disquscommentsextbase/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:disqus_comments_extbase/Resources/Private/Templates/
+		# cat=plugin.tx_disquscommentsextbase/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:disqus_comments_extbase/Resources/Private/Partials/
+		# cat=plugin.tx_disquscommentsextbase/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:disqus_comments_extbase/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_disquscommentsextbase//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
