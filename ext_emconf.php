@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = array (
 
 Provides DISQUS Comment Services to TYPO3 tt_content.',
 	'category' => 'plugin',
-	'version' => '2.0.6',
+	'version' => '2.0.7',
 	'state' => 'stable',
 	'uploadfolder' => true,
 	'createDirs' => '',
@@ -28,9 +28,9 @@ Provides DISQUS Comment Services to TYPO3 tt_content.',
 	array (
 		'depends' => 
 		array (
-			'extbase' => '6.2.0-7.6.99',
-			'fluid' => '6.2.0-7.6.99',
-			'typo3' => '6.2.0-7.6.99',
+			'extbase' => '6.2.0-8.7.99',
+			'fluid' => '6.2.0-8.7.99',
+			'typo3' => '6.2.0-8.7.99',
 		),
 		'conflicts' => 
 		array (
